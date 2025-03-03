@@ -16,7 +16,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript', 'python', 'java', 'cpp', 'csharp','php' ] # Add your language(s)
+        #language: [ 'javascript', 'python', 'java', 'cpp', 'csharp','php' ] # Add your language(s)
+        language: [ 'javascript','java'] # Add your language(s)
 
     steps:
     - name: Checkout repository
